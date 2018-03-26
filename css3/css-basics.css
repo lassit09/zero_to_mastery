@@ -4,23 +4,55 @@
 
  /* For colors, try paletton.com */
 
+ /* CSS Selectors
+ .class
+ #id
+ * = everything
+ element
+ element, element = selecting multiple different elements
+ element1 element2 = selects all element2's inside an element1 
+ element1 > element2 = selects element2's that are parents of element1's
+ element1 + element2 = selects an element2 that is directly after an element 1
+ element:hover = makes the styling happen when the cursor hovers over selected element
+ element:last-child = selects only the last child of the parent element
+ element:first-child = selects only the first child of the parent element
+ !important = overrides any css rules (SHOULD NOT BE USED)
+ */
+
+ /* 
+ What selectors win out in the cascade depends on:
+ -Specificity
+ -Importance
+ -Source Order
+ */
+
  body {
     background-image: url(mountains.jpg);
     background-size: cover;
  }
 
- h2 {
+ h2, p {
      color: #1C5290;
      text-align: center;
      border: 5px solid #1F440F;
      cursor: pointer;
+     text-align: center;
  }
 
  p {
      color: #1F440F;
+     background-color: rgba(101, 110, 105, 0.6);
  }
 
  li {
      list-style: none;
      display: inline-block;
+ }
+
+ .firstP:hover {
+     color: red;
+ }
+
+ #secondP {
+     color: yellow;
  }

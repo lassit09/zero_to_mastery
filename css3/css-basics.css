@@ -31,15 +31,17 @@
     background-size: cover;
  }
 
+ h2 {
+     text-align: right;
+ }
  h2, p {
      color: #1C5290;
-     text-align: center;
      /* border: 5px solid #1F440F; */
      cursor: pointer;
-     text-align: center;
  }
 
  p {
+     text-align: center;
      color: #1F440F;
      background-color: rgba(101, 110, 105, 0.6);
      line-height: 20px;
@@ -59,4 +61,13 @@
 
  #secondP {
      color: yellow;
+ }
+
+ img {
+     float: left;
+ }
+
+ footer {
+     clear: both;
+     text-align: center;
  }

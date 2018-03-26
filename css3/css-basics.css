@@ -2,10 +2,25 @@
     Property: value;
  } */
 
+ /* For colors, try paletton.com */
+
+ body {
+    background-image: url(mountains.jpg);
+    background-size: cover;
+ }
+
  h2 {
-     color: red;
+     color: #1C5290;
+     text-align: center;
+     border: 5px solid #1F440F;
+     cursor: pointer;
  }
 
  p {
-     color: blue;
+     color: #1F440F;
+ }
+
+ li {
+     list-style: none;
+     display: inline-block;
  }

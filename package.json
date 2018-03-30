@@ -1,0 +1,23 @@
+{
+  "name": "zero_to_mastery",
+  "version": "1.0.0",
+  "description": "zero-to-mastery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassit09/zero_to_mastery.git"
+  },
+  "author": "Taylor Lassiter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassit09/zero_to_mastery/issues"
+  },
+  "homepage": "https://github.com/lassit09/zero_to_mastery#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.3"
+  }
+}

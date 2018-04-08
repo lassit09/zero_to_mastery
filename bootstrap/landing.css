@@ -1,0 +1,42 @@
+html {
+    display: block;
+}
+
+body {
+    background-image: url("forest.jpeg");
+    background-size: cover;
+    height: 100%;
+}
+
+hr {
+    max-width: 65px;
+    border-width: 3px;
+    color: white;
+}
+
+header.startup hr {
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+header.startup h1 {
+    font-size: 2rem;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    text-shadow: 3px 3px black;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+    vertical-align: middle;
+    background-color: white;
+    border-color: white;
+    color: forestgreen;
+    padding: 1rem 2rem;
+    border-radius: 300px;
+}
+
+.btn:hover {
+    background-color: forestgreen;
+    border-color: forestgreen;
+    color: white;
+}

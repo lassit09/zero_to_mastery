@@ -1,0 +1,20 @@
+.col {
+    color: white;
+    text-align: center;
+    height: 2em;
+}
+
+.text {
+    text-shadow: 1px 1px black;
+}
+.col1 {
+background-color: #aa5d39;
+}
+
+.col2 {
+    background-color: #2a4d63;
+}
+
+.col3 {
+    background-color: #aa8f39;
+}

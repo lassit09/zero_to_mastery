@@ -84,3 +84,13 @@ JAVASCRIPT FUNCTIONS
 * PARAMETERS VS. ARGUMENTS
     * Parameters are like the variables you put in when constructing a function.
     * Arguments are what you put in place of those variables when calling a function.
+
+JAVASCRIPT ARRAYS
+-------------------
+* ARRAY METHODS
+    * .shift() - remove first item
+    * .pop() - remove last item
+    * .push() - add item to end
+    * .unshift() - add item to beginning
+    * .concat() - add to current array
+    * .sort() - alphabetize

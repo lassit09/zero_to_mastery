@@ -68,3 +68,19 @@ JAVASCRIPT LOGICAL OPERATORS
     alert("Hi Bob!");
 }
     var name === (anything other than Bob works)
+
+JAVASCRIPT FUNCTIONS
+----------------------
+* Syntax for calling a function: functionName(argument);
+* FUNCTION DECLARATION
+    * function sayHello() {
+        console.log("Hello");
+    }
+* FUNCTION EXPRESSION
+    * var sayBye = function() {
+        console.log("Bye");
+    }
+    * this is an anonymous function
+* PARAMETERS VS. ARGUMENTS
+    * Parameters are like the variables you put in when constructing a function.
+    * Arguments are what you put in place of those variables when calling a function.

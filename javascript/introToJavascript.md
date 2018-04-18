@@ -87,6 +87,8 @@ JAVASCRIPT FUNCTIONS
 
 JAVASCRIPT ARRAYS
 -------------------
+* Great for shopping lists or to-do lists
+* Accessing arrays: list[0];
 * ARRAY METHODS
     * .shift() - remove first item
     * .pop() - remove last item
@@ -94,3 +96,18 @@ JAVASCRIPT ARRAYS
     * .unshift() - add item to beginning
     * .concat() - add to current array
     * .sort() - alphabetize
+
+JAVASCRIPT OBJECTS
+--------------------
+* Objects are collections of properties
+* Great for user information
+* Object syntax: 
+    var user = {
+        name: 'John',
+        age: 34,
+        hobby: 'Soccer',
+        isMarried: false
+    }
+* To select values: user.name
+* Adding/Editing properties to object: user.favoriteFood = 'Spinach';
+* A function inside an object is called a "Method"

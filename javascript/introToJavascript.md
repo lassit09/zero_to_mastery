@@ -79,7 +79,7 @@ JAVASCRIPT FUNCTIONS
 * FUNCTION EXPRESSION
     * var sayBye = function() {
         console.log("Bye");
-    }
+    };
     * this is an anonymous function
 * PARAMETERS VS. ARGUMENTS
     * Parameters are like the variables you put in when constructing a function.

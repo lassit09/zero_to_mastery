@@ -26,6 +26,7 @@ do {
 } while (counterTwo > 0);
 
 //forEach (new in ECMAScript 5)
+//forEach is a method to use on your arrays and objects
 todos.forEach(function(todo, i) {
     console.log(todo, i);
 })

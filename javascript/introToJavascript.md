@@ -111,3 +111,7 @@ JAVASCRIPT OBJECTS
 * To select values: user.name
 * Adding/Editing properties to object: user.favoriteFood = 'Spinach';
 * A function inside an object is called a "Method"
+
+DOCUMENT OBJECT MODEL
+-----------------------
+* The DOM allows us to modify HTML and CSS

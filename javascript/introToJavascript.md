@@ -134,3 +134,11 @@ DOCUMENT OBJECT MODEL
     * parentElement
     * children
 * CACHE YOUR SELECTORS IN VARIABLES FOR EFFICIENCY
+
+* DOM Events
+    * addEventListener("event", function() {
+        console.log("whatever");
+    });
+    * createElement("li");
+        * li.appendChild(document.createTextNode(input.value));
+        * ul.appendChild(li);

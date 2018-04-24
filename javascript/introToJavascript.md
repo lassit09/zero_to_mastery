@@ -115,3 +115,22 @@ JAVASCRIPT OBJECTS
 DOCUMENT OBJECT MODEL
 -----------------------
 * The DOM allows us to modify HTML and CSS
+* DOM Selectors
+    * document.getElementsByTagName("h1");
+    * document.getElementsByClassName("firstClass");
+    * document.getElementById("firstID");
+    * document.querySelector("h1") or (#id) or (.class);
+    * document.querySelectorAll("li"); //selects all li's
+    * document.querySelector(".class").getAttribute("height");
+    * document.querySelector(".class").setAttribute("height", "20px");
+* Changing Styles
+    * document.querySelector("h1").style.{property} //ok
+    * className //best
+    * classList //best
+        * classList.add
+        * classList.remove
+        * classList.toggle
+    * innerHTML //DANGEROUS
+    * parentElement
+    * children
+* CACHE YOUR SELECTORS IN VARIABLES FOR EFFICIENCY

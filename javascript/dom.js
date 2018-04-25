@@ -1,7 +1,7 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
-var li = document.querySelector("li");
+var li = document.querySelectorAll("li");
 var deleteButton = document.querySelector("li button");
 
 function inputLength() {
@@ -30,6 +30,14 @@ function addListElementAfterKeyPress(event) {
 function toggleLiClassOnClick() {
     li.classList.toggle("done");
 }
+
+// function deleteLiOnClick() {
+//     for (var i = 0; i < li.length; i++) {
+//         li[i].onclick() {
+//             this.parentNode.removeChild(this);
+//         }
+//     }
+// }
 
 button.addEventListener("click", addListElementAfterClick);
 

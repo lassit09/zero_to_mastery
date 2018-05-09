@@ -142,3 +142,57 @@ DOCUMENT OBJECT MODEL
     * createElement("li");
         * li.appendChild(document.createTextNode(input.value));
         * ul.appendChild(li);
+
+SCOPE
+-------
+function aa() {
+    console.log("test");
+}
+* function aa is now part of the window scope
+function bb() {
+    var a = "hello";
+}
+* you could not console.log(a), because it only lives in function bb()
+* you could console.log(a) within in function bb() like
+    function bb() {
+        var a = "hello";
+        console.log(a);
+    }
+* we can set variables outside functions and use them within the function like
+    var b = "Can I access this?";
+    function bb() {
+        console.log(b) // will retrun "Can I access this?"
+    }
+* but we can reassign the variable within a function like
+    var b = "Can I access this?"
+    function bb() {
+        b = "hello";
+    }
+    console.log(b); // will return "hello"
+
+// Root Scope (window)
+    var fun = 5;
+
+function funFunction() {
+    // child scope
+    var fun = "hellooo";
+    console.log(1, fun);
+}
+
+function funerFunction() {
+    // child scope
+    var fun = "Bye";
+    console.log(2, fun);
+}
+
+function funestFunction() {
+    // child scope
+    fun = "AHHHHH";
+    console.log(3, fun);
+}
+
+console.log("window", fun); // window 5
+funFunction(); // 1 "hellooo"
+funerFunction(); // 2 "Bye"
+funestFunction(); // 3 "AHHHHH"
+console.log(fun); // "AHHHHH"

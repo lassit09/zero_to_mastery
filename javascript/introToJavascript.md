@@ -52,7 +52,33 @@ JAVASCRIPT CONDITIONALS
 } else {
     alert("Hmmm I don't know you.");
 }
-
+* TERNARY OPERATOR
+    * condition ? expression1 : expression2;
+function isUserValid(bool) {
+    return bool;
+}
+var answer = isUserValid(true) ? "You may enter" : "Access Denied";
+* SWITCH STATEMENT
+function moveCommand(direction) {
+    var whatHappens;
+    switch (direction) {
+        case "forward":
+            whatHappens = "You encounter a monster.";
+            break;
+        case "backward":
+            whatHappens = "You arrived home.";
+            break;
+        case "right":
+            whatHappens = "You found a river.";
+            break;
+        case "left":
+            whatHappens = "You run into a troll.";
+            break;
+        default:
+            whatHappens = "Please enter a valid direction.";
+    }
+    return whatHappens;
+}
 JAVASCRIPT LOGICAL OPERATORS
 ------------------------------
 * if (name === "Billy" || name === "Ann") {
